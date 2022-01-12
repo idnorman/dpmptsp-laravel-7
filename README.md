@@ -32,6 +32,5 @@ Download/clone repository, kemudian import database **dpmptsp.sql**, selesai
 -----
 
 #### Note
-Ukuran file besar karena file gambar untuk artikel tidak dikompres ( > 80MB), sorry 😥
 
 Masih terdapat kekurangan, feel free to edit 😆 😆 😆
