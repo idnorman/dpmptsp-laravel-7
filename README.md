@@ -8,12 +8,12 @@ Sistem Infromasi Portal Berita/Blog berbasis web untuk Dinas Penanaman Modal dan
 
 ##### Main Page (Frontend)
 <p align="center">
-  <img src="https://raw.githubusercontent.com/idnorman/dpmptsp-laravel-7/main/frontpage.gif">
+  <img src="https://raw.githubusercontent.com/idnorman/dpmptsp-laravel-7/master/frontpage.gif">
 </p>
 
 ##### Admin
 <p align="center">
-  <img src="https://raw.githubusercontent.com/idnorman/dpmptsp-laravel-7/main/admin.gif">
+  <img src="https://raw.githubusercontent.com/idnorman/dpmptsp-laravel-7/master/admin.gif">
 </p>
 
 *Penulis hanya memiliki fitur CRUD artikel (tampilan sama seperti tampilan menu artikel Admin)*
