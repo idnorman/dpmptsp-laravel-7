@@ -1,0 +1,1 @@
+@extends('panel.layouts.app')

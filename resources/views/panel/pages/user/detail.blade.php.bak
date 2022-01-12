@@ -1,0 +1,48 @@
+@extends('panel.layouts.app')
+
+
+@section('title', 'Profil ' . ucfirst($user[0]['nama']))
+
+@section('content')
+
+
+    <section class="section">
+     	<div class="section-header">
+        	<h1>{{ 'Profil ' . ucfirst($user[0]['nama']) }}</h1>
+          	</div>
+          		<div class="card">
+                <div class="card-header">
+                  <a href="user/create" class="btn btn-info mr-2">Edit Profil</a>
+                  <a href="user/" class="btn btn-danger">Hapus</a>
+                </div>
+          			<div class="card-body">
+                		
+          				@foreach ($user as $u)
+
+          				<div class="row">
+          					
+          					<div class="col-lg-3 col-md-5">
+          						<img class="card-img-top" src="/image/{{ $u->foto }}" width="200px" height="300px" alt="foto profil {{ $u->nama }}">
+          					</div>
+          					<div class="col-lg-9 col-md-7">
+          						
+          					</div>
+          				</div>
+                        	<tr>
+	                            <th scope="row">{{ $loop->iteration }}</th>
+	                            <td>{{ $u->nama }}</td>
+	                            <td>{{ $u->nip }}</td>
+	                            <td>{{ $u->level_user }}</td>
+                              <td>{{ $u->level_user }}</td>
+                          	</tr>
+                        @endforeach
+
+
+                    </div>
+            	</div>
+    		<div class="section-body">
+    	</div>
+    </section>
+
+@endsection
+
